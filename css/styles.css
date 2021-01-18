@@ -1,0 +1,143 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  border: none;
+  color: #f2f2f2;
+  height: 1px;
+  background-color: #f2f2f2;
+  position: relative;
+  top: 37%;
+}
+
+table{
+  text-align:center;
+  padding-top: 15px;
+  padding-right: 10px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+  width: 300px;
+  position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+p{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.age{
+  color: #71737A;
+  font-weight:400;
+}
+.bottom-row{
+  font-size: .8rem;
+  color: #71737A;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.top-row{
+  font-weight: 700;
+}
+
+.background{
+  background-color: #1ba1ad;
+  width: 90%;
+  height: 80%;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+.card-container{
+  width: 25%;
+  height: 70%;
+  background: #ffffff;
+  border-radius: 12px;
+  min-width: 300px;
+  position: absolute; /* I would like to see if someone can explain this positioning, i got it from stackover flow but dont understand it fully */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.city{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: .8rem;
+  color: #71737A;
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-victor{
+  position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+  border-image-width: 10%;
+  border: 5px solid white;
+}
+
+.name{
+  margin-top: 70px;
+  text-align: center;
+  font-weight: 700;
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.pattern-top{
+  width: 54%;
+  height: 50%;
+  position: absolute;
+    top: 0;
+    left: 0;
+  transform: rotate(180deg);
+  overflow: hidden;
+
+
+}
+
+.pattern-bottom{
+  width: 54%;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+
+}
+
+.top-image-card-container{
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+
+}
+.attribution{
+  color: #3E52A3;
+  text-align: center;
+}
